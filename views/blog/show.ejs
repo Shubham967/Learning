@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Show Blog</title>
+</head>
+<body>
+
+    <div id="special">
+        <h2><%= b.Title %></h2>
+        <img id="im" src=" <%= b.Image %>">
+        <p><%= b.body %></p>
+        <h2> <%= b.Author %> </h2> 
+    
+        <form method="GET" action="/blog/<%= b.id %>/edit" id="f1">
+            
+            <button id="b1">Edit</button>
+            
+        </form>
+    
+        <form method="POST" action="/blog/<%=b.id %>?_method=DELETE" id="f2">
+    
+            <button id="b2">DELETE</button>
+    
+        </form>
+    </div>
+ 
+
+
+</body>
+</html>

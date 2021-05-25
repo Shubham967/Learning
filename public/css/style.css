@@ -1,0 +1,34 @@
+body{
+    background-color:white;
+}
+#h{
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 10px;
+    border: 1px transparent;
+    background-color: lightblue;
+}
+#special{
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 10px;
+    border:1px solid lightgray;
+    padding: 10px;
+
+}
+
+#im{
+    width: 1000px;
+  height: 500px;
+  object-fit: cover;
+}
+
+#f1,#f2{
+    display: inline-block;
+}
+
+#b1,#b2,#b3
+{
+    background-color: cornflowerblue;
+}
+
